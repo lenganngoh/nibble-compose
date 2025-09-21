@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nibble</string>
+    <string name="home_header">Discover Tasty Recipes</string>
+    <string name="home_search_hint">Search for recipes…</string>
+    <string name="detail_instruction">Instruction</string>
+    <string name="detail_ingredients">Ingredients</string>
+</resources>

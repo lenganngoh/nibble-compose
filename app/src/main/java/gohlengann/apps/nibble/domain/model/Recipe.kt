@@ -1,0 +1,115 @@
+package gohlengann.apps.nibble.domain.model
+
+import android.os.Parcelable
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+@JsonClass(generateAdapter = true)
+data class Recipe(
+    @Json(name = "idMeal")
+    var id: String?,
+    @Json(name = "strMeal")
+    var name: String?,
+    @Json(name = "strMealThumb")
+    var thumbnail: String?,
+    @Json(name = "strCategory")
+    var category: String?,
+    @Json(name = "strArea")
+    var area: String?,
+    @Json(name = "strInstructions")
+    var instructions: String?,
+    @Json(name = "strYoutube")
+    var videoUrl: String?,
+    @Json(name = "strIngredient1")
+    var ingredient1: String?,
+    @Json(name = "strIngredient2")
+    var ingredient2: String?,
+    @Json(name = "strIngredient3")
+    var ingredient3: String?,
+    @Json(name = "strIngredient4")
+    var ingredient4: String?,
+    @Json(name = "strIngredient5")
+    var ingredient5: String?,
+    @Json(name = "strIngredient6")
+    var ingredient6: String?,
+    @Json(name = "strIngredient7")
+    var ingredient7: String?,
+    @Json(name = "strIngredient8")
+    var ingredient8: String?,
+    @Json(name = "strIngredient9")
+    var ingredient9: String?,
+    @Json(name = "strIngredient10")
+    var ingredient10: String?,
+    @Json(name = "strIngredient11")
+    var ingredient11: String?,
+    @Json(name = "strIngredient12")
+    var ingredient12: String?,
+    @Json(name = "strIngredient13")
+    var ingredient13: String?,
+    @Json(name = "strIngredient14")
+    var ingredient14: String?,
+    @Json(name = "strIngredient15")
+    var ingredient15: String?,
+    @Json(name = "strIngredient16")
+    var ingredient16: String?,
+    @Json(name = "strIngredient17")
+    var ingredient17: String?,
+    @Json(name = "strIngredient18")
+    var ingredient18: String?,
+    @Json(name = "strIngredient19")
+    var ingredient19: String?,
+    @Json(name = "strIngredient20")
+    var ingredient20: String?,
+    @Json(name = "strMeasure1")
+    var measure1: String?,
+    @Json(name = "strMeasure2")
+    var measure2: String?,
+    @Json(name = "strMeasure3")
+    var measure3: String?,
+    @Json(name = "strMeasure4")
+    var measure4: String?,
+    @Json(name = "strMeasure5")
+    var measure5: String?,
+    @Json(name = "strMeasure6")
+    var measure6: String?,
+    @Json(name = "strMeasure7")
+    var measure7: String?,
+    @Json(name = "strMeasure8")
+    var measure8: String?,
+    @Json(name = "strMeasure9")
+    var measure9: String?,
+    @Json(name = "strMeasure10")
+    var measure10: String?,
+    @Json(name = "strMeasure11")
+    var measure11: String?,
+    @Json(name = "strMeasure12")
+    var measure12: String?,
+    @Json(name = "strMeasure13")
+    var measure13: String?,
+    @Json(name = "strMeasure14")
+    var measure14: String?,
+    @Json(name = "strMeasure15")
+    var measure15: String?,
+    @Json(name = "strMeasure16")
+    var measure16: String?,
+    @Json(name = "strMeasure17")
+    var measure17: String?,
+    @Json(name = "strMeasure18")
+    var measure18: String?,
+    @Json(name = "strMeasure19")
+    var measure19: String?,
+    @Json(name = "strMeasure20")
+    var measure20: String?,
+    @Json(name = "strSource")
+    var sourceUrl: String?,
+    @Json(name = "dateModified")
+    var dateModified: String?,
+    @Json(name = "strImageSource")
+    var imageSource: String?,
+    @Json(name = "strTags")
+    var tags: String?,
+    @Json(name = "strCreativeCommonsConfirmed")
+    var creativeCommonsConfirmed: String?
+): Parcelable
