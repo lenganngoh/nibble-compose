@@ -31,7 +31,6 @@ import coil.compose.AsyncImage
 import gohlengann.apps.nibble.R
 import gohlengann.apps.nibble.domain.model.Recipe
 import gohlengann.apps.nibble.ui.theme.Accent80
-import gohlengann.apps.nibble.ui.theme.Secondary40
 import gohlengann.apps.nibble.ui.theme.Secondary80
 
 @Composable

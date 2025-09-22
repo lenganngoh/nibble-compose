@@ -6,11 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import gohlengann.apps.nibble.domain.model.Recipe
-import gohlengann.apps.nibble.ui.home.HomeScreen
-import gohlengann.apps.nibble.ui.home.HomeViewModel
 import gohlengann.apps.nibble.ui.theme.NibbleTheme
-import org.koin.androidx.viewmodel.ext.android.viewModel
-import kotlin.getValue
 
 class DetailActivity : ComponentActivity() {
 
